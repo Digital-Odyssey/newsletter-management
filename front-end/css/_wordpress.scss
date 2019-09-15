@@ -1,0 +1,660 @@
+/* =WordPress Core
+-------------------------------------------------------------- */
+.sticky { 
+	font-style:inherit;	
+}
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 0px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 0px !important;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 0px !important;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.gallery-caption{
+	font-family:inherit;
+}
+.bypostauthor{
+	font-family:inherit;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+
+.pm-search-error, .pm-404-error {
+	font-size:20px !important;	
+}
+
+.wp-caption {
+	max-width:100%;
+	height:100%;	
+}
+
+/* Categories - WP NATIVE */
+.pm-widget-footer .widget_categories ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.pm-widget-footer .widget_categories ul li:before {
+    content: "" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.pm-widget-footer .widget_categories ul li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+.pm-widget-footer .widget_categories ul a {	
+	@include transition(all, 0.4s);
+}
+
+
+.pm-widget-footer .widget_categories ul a:before {
+	content:"\f054";
+	font-family:'FontAwesome';
+	font-size:14px;
+	color:#2b5d83;	
+	padding-right:16px;
+}
+
+/* Categories end - WP NATIVE */
+
+/* Tag cloud */
+.pm-widget-footer .tagcloud a {  
+	background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    font-size: 14px !important;
+    padding: 4px 18px;
+    text-transform: uppercase;
+	margin-bottom:3px;
+    
+	@include borderRadiusAll(2px);
+	@include transition(all, 0.4s);
+}
+
+
+.pm-sidebar .pm-widget .tagcloud a {
+	width:auto;
+	height:auto;	
+	display:inline;
+	min-width:100px;
+	display:inline-block;
+	padding:2px 15px;
+	text-decoration:none;
+	margin:1px 0;
+	text-align:center;
+	
+	@include borderRadiusAll(2px);
+	@include transition(all, 0.4s);
+}
+
+.pm-sidebar .pm-widget .tagcloud a:hover {
+	color:black;
+}
+
+/* WP Calendar */
+.pm-widget-footer #wp-calendar thead tr th {
+	padding:0 0 10px;	
+}
+
+.pm-widget-footer #wp-calendar tbody td { 
+	background:white; 
+	text-align: center; 
+	padding:10px; 
+	
+	@include transition(all, 0.4s);
+}
+
+.pm-widget-footer #wp-calendar tbody tr td a {
+	display:block;
+	width:inherit;
+	height:inherit;	
+	text-decoration:underline !important;
+}
+
+.pm-widget-footer #wp-calendar caption, #wp-calendar thead th {
+	color:white !important;	
+}
+
+/* Meta - WP NATIVE */
+.pm-widget-footer .widget_meta ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+.pm-widget-footer .widget_meta ul li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+.pm-widget-footer .widget_meta ul li a {	
+	@include transition(all, 0.4s);
+}
+
+.pm-widget-footer .widget_meta ul li:before {
+	content:"\f054";
+	font-family:'FontAwesome';
+	font-size:14px;
+	color:#2b5d83;	
+	padding-right:16px;
+}
+
+/* Meta end - WP NATIVE */
+
+/* Archives - WP NATIVE */
+.pm-widget-footer .widget_archive ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+.pm-widget-footer .widget_archive ul li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+.pm-widget-footer .widget_archive ul li a {
+	@include transition(all, 0.4s);
+}
+
+
+.pm-widget-footer .widget_archive ul li:before {
+	content:"\f054";
+	font-family:'FontAwesome';
+	font-size:14px;
+	color:#2b5d83;	
+	padding-right:16px;
+}
+
+/* Archives end - WP NATIVE */
+
+
+/* Pages - WP NATIVE */
+.pm-widget-footer .widget_pages ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+.pm-widget-footer .widget_pages ul li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+.pm-widget-footer .widget_pages ul li a {
+	@include transition(all, 0.4s);
+}
+
+
+.pm-widget-footer .widget_pages ul li:before {
+	content:"\f054";
+	font-family:'FontAwesome';
+	font-size:14px;
+	color:#2b5d83;	
+	padding-right:16px;
+}
+
+/* Pages end - WP NATIVE */
+
+
+/* Recent Posts widget - WP NATIVE */
+.pm-widget-footer .widget_recent_entries ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.pm-widget-footer .widget_recent_entries ul li:before {
+    content: "" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.pm-widget-footer .widget_recent_entries ul li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+.pm-widget-footer .widget_recent_entries ul li a {
+	@include transition(all, 0.4s);
+}
+
+.pm-widget-footer .widget_recent_entries ul li span {
+	font-size:12px;	
+}
+
+.pm-widget-footer .widget_recent_entries ul li {
+	overflow:hidden;	
+}
+
+.pm-widget-footer .widget_recent_entries ul li a {
+	float:left;
+}
+
+.pm-widget-footer .widget_recent_entries ul li .post-date {
+	margin-top:6px;
+	float:left;
+	clear:both;
+}
+
+/* Recent Posts widget end - WP NATIVE */
+
+
+/* Recent posts - WP NATIVE */
+.widget_recent_entries .pm-widget-spacer ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.widget_recent_entries .pm-widget-spacer ul li:before {
+    content: "" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.widget_recent_entries .pm-widget-spacer ul li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+	overflow:hidden;
+}
+
+.widget_recent_entries .pm-widget-spacer ul li a {
+	float:left;
+	
+	@include transition(all, 0.4s);
+}
+
+.widget_recent_entries .pm-widget-spacer ul li span {
+	float:left;
+	clear:left;
+	font-size:12px;
+	font-style:italic;
+}
+
+.widget_recent_entries .pm-widget-spacer ul li a:hover {
+	color:#2B5D82;
+}
+
+
+
+/* Recent posts end - WP NATIVE */
+
+/* Categories - WP NATIVE */
+.pm-sidebar .widget_categories ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.pm-sidebar .widget_categories ul li:before {
+    content: "" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.pm-sidebar .widget_categories ul li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+.pm-sidebar .widget_categories ul a {	
+	@include transition(all, 0.4s);
+}
+
+.pm-sidebar .widget_categories ul a:hover {
+	color:#2B5D82;
+}
+
+.pm-sidebar .widget_categories ul a:before {
+	content:"\f054";
+	font-family:'FontAwesome';
+	font-size:14px;
+	color:#2b5d83;	
+	padding-right:16px;
+}
+
+/* Categories end - WP NATIVE */
+
+/* Recent comments - WP NATIVE */
+.pm-sidebar #recentcomments {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+.pm-sidebar #recentcomments li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+.pm-sidebar #recentcomments a {
+	
+	@include transition(all, 0.4s);
+}
+
+.pm-sidebar #recentcomments a:hover {
+	color:#2B5D82;
+}
+
+.pm-sidebar #recentcomments li:before {
+	content:"";
+	margin:0;
+	padding:0;
+}
+
+/* Recent comments end - WP NATIVE */
+
+/* Pages - WP NATIVE */
+.pm-sidebar .widget_pages ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+.pm-sidebar .widget_pages ul li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+.pm-sidebar .widget_pages ul li a {	
+	@include transition(all, 0.4s);
+}
+
+
+.pm-sidebar .widget_pages ul li:before {
+	content:"\f054";
+	font-family:'FontAwesome';
+	font-size:14px;
+	color:#2b5d83;	
+	padding-right:16px;
+}
+
+/* Pages end - WP NATIVE */
+
+
+/* Meta - WP NATIVE */
+.pm-sidebar .widget_meta ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+.pm-sidebar .widget_meta ul li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+.pm-sidebar .widget_meta ul li a {
+	font-size:14px;
+	
+	@include transition(all, 0.4s);
+}
+
+
+
+.pm-sidebar .widget_meta ul li:before {
+	content:"\f054";
+	font-family:'FontAwesome';
+	font-size:14px;
+	color:#2b5d83;	
+	padding-right:16px;
+}
+
+/* Meta end - WP NATIVE */
+
+/* WP Calendar */
+.pm-sidebar #wp-calendar {
+	margin:0 auto;	
+}
+
+.pm-sidebar #wp-calendar thead tr th {
+	padding:0 0 10px;	
+}
+
+
+.pm-sidebar #wp-calendar tbody td { 
+	background:white; 
+	border: 1px solid $primaryColor; 
+	text-align: center; 
+	padding:10px; 
+	
+	@include transition(all, 0.4s);
+}
+
+.pm-sidebar #wp-calendar tbody tr td#today { 
+	background-color:$primaryColor; 
+}
+
+.pm-sidebar #wp-calendar tbody tr td a {
+	display:block;
+	width:inherit;
+	height:inherit;	
+	color:$secondaryColor;	
+	text-decoration:underline !important;
+}
+
+.pm-sidebar #wp-calendar tbody tr td:hover a {
+	color:$secondaryColor;	
+}
+
+.pm-sidebar #wp-calendar tbody td:hover {
+	background-color:$primaryColor; 	
+}
+
+.pm-sidebar #wp-calendar caption, .pm-sidebar #wp-calendar thead th {
+	color:#999 !important;
+	text-align:center;
+}
+
+
+/* Calendar end - WP NATIVE*/
+
+
+/* Archives - WP NATIVE */
+.pm-sidebar .widget_archive ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+.pm-sidebar .widget_archive ul li {
+	padding-bottom:16px;
+	margin-bottom:16px;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+.pm-sidebar .widget_archive ul li a {
+	font-size:14px;
+	color:#8e8e8e;
+	
+	@include transition(all, 0.4s);
+}
+
+.pm-sidebar .widget_archive ul li a:hover {
+	color:#2B5D82;
+}
+
+.pm-sidebar .widget_archive ul li:before {
+	content:"\f054";
+	font-family:'FontAwesome';
+	font-size:14px;
+	color:#2b5d83;	
+	padding-right:16px;
+}
+
+/* Archives end - WP NATIVE */
+
+/* 60. WordPress paginated posts */
+.pm_paginated-posts {
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+.pm_paginated-posts p {
+    display: table;
+    margin: 0 auto;
+}
+
+.pagination_multi {
+    list-style: outside none none;
+    margin: 0;
+    padding: 7px 0;
+    text-align: center;
+}
+
+.pagination_multi li:before {
+	content:"";
+	margin:0;
+	padding:0;	
+}
+
+.pagination_multi li {
+    box-sizing: content-box;
+    color: #c8c8c8 !important;
+    display: inline-block;
+    height: 25px;
+    padding-top: 10px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 35px;
+	line-height: 10px !important;
+}
+
+
+.pagination_multi a {
+    box-sizing: content-box;
+    height: 20px !important;
+    line-height: 0px !important;
+}
+
+.pagination_multi a li {
+    display: inline-block;
+    height: 35px !important;
+    padding-top: 0;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 35px !important;
+	line-height: 31px !important;
+}
+
+.pm-sidebar .pm-widget > div {
+	margin-bottom:0px;	
+}

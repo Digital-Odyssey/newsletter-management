@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Large desktop - BROWSER SIZE 1 */
+@media only screen and (min-width: 1400px) and (max-width: 5000px) { /* crank up to 5000px to support high res monitors and TV's */
+
+	.container {
+		width:1110px;	
+	}
+	
+	.container.home {
+		width:950px !important;	
+	}
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) { 
+
+	.container {
+		width:1110px;	
+	}
+	
+	.container.home {
+		width:920px !important;		
+	}
+
+
+}
+
+/* Portrait tablet to landscape and desktop - BROWSER SIZE 2 */
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+	
+	body .hero h1 {
+		font-size:60px;	
+		max-width:auto;
+		padding:0 30px;
+	}
+
+}
+
+/* Landscape phone to portrait tablet - BROWSER SIZE 3 */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+	
+	body .hero h1 {
+		font-size:60px;	
+		max-width:auto;
+		padding:0 30px;
+	}
+	
+	.container {
+		width:auto;	
+	}
+	
+	.is-table-row [class*="col-"] {
+		display:block;	
+	}
+	
+}
+
+/* All Mobile Sizes (devices and browser) - BROWSER SIZE 4 */
+@media only screen and (max-width: 767px) {
+	
+	.row-eq-height {
+	  display:inherit !important;
+	}
+	
+	.cta-box {
+		width:auto !important;	
+	}
+	
+	.is-table-row [class*="col-"] {
+		display:block;	
+	}
+	
+	body .hero h1 {
+		font-size:42px;	
+		max-width:auto;
+		padding:0 30px;
+	}
+	
+	.pm-return-btn {
+		margin:0 auto;
+		display:table;	
+	}
+	
+	.pm-language-btn.relative {
+		margin:30px auto 10px;
+		display:table;	
+		float:none;
+		right:0px;
+	}
+	
+	article.letter > .container.body {
+		padding: 30px;	
+	}
+	
+}
+
+/* Landscape phones and down - BROWSER SIZE 5 */
+@media (max-width: 480px) {
+	
+	body .hero h1 {
+		font-size:30px;	
+		max-width:auto;
+		padding:0 30px;
+	}
+	
+	.recaptcha-container {
+		padding: 10px 0px 20px;
+		clear: both;
+	}
+	
+	
+}
+
+/* iphone portrait mode - BROWSER SIZE 6 */
+@media (max-width: 320px) {
+	
+	body .hero h1 {
+    	font-size: 30px;
+	}
+	
+}

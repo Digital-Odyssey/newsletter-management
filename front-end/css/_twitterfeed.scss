@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* Twitter widget styling */
+.tweet_container { 
+	padding:5px;
+}
+
+.tweet_container p:first-of-type {
+	margin-top:0px;
+	float:left;
+	clear:left;
+}
+
+.tweet_container .interact a {
+	margin-right:10px;	
+}
+
+.tweet_container .user a img {
+	float:left;	
+	margin-right:10px;
+	margin-bottom:5px;
+}
+
+.pm-tweet-list ul li:before { 
+    content: "\f099" !important;
+    font-size: 20px;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+    top: 7px;
+	left: 10px;
+	color: white;
+	font-family: fontawesome;
+}
+
+
+.pm-tweet-list ul li {
+    padding: 0px 0px 11px 48px;
+	color:white;
+	font-size: 13px !important;
+	word-wrap:break-word;
+	line-height: 22px;
+	position:relative;
+	overflow:hidden;
+}
+
+.pm-tweet-list ul li a {
+	line-height:20px !important;
+}
+
+.pm-tweet-list ul {
+	list-style:none;
+	padding:0;
+	margin:0;	
+}   
+

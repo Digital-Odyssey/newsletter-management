@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* Use this CSS file for buttons styling */
+
+.pm-action-btn {
+	background-color:$primaryColor;
+	padding:30px 50px;
+	color:white;
+	font-family:'Open Sans';
+	font-size:14px;
+	text-align:center;	
+	text-transform:uppercase;
+	font-weight:bold;
+	display: inline-block;
+	margin:30px 0 0;
+	
+	@include borderRadiusAll(2px);
+}
+
+.pm-action-btn:hover {
+	background-color:$secondaryColor;
+	color:white;	
+}

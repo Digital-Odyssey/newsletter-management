@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* Use this CSS file for form styling */
+
+.form-control {
+	border-radius:0px;
+	padding:12px !important;	
+	margin-bottom:20px;
+	height:auto !important;
+	background-color:#F3ECE6 !important;
+	border:1px solid #CCC;
+	box-shadow:none;
+	text-shadow:none;
+	font-size:21px !important;
+	border-radius:4px;	
+	
+	
+	transition:all 0.3s !important;
+	-moz-transition:all 0.3s !important;
+	-webkit-transition:all 0.3s !important;
+}
+
+.form-control.invalid_field {
+	background-color:#a84429 !important;
+	border:1px solid #a84429 !important;
+	color:white !important;
+}
+
+.form-control:focus {
+	background-color:#a84429 !important;
+	border:1px solid #a84429 !important;
+	color:white !important;
+}
+
+.form-button {
+	color:#ffffff;
+	font-family:'Montserrat';
+	font-size:18px !important;
+	text-transform:uppercase;
+	text-align:center;
+	padding:10px;
+	background-color:#a84429 !important;
+	width:100%;
+	display:block;
+	margin-top:5px;
+	box-shadow: 0px 2px #333333;
+	border:none !important;
+	text-decoration:none !important;
+	font-weight:300;
+	
+	border-radius:4px;	
+	@include transition(all, 0.3s);
+}
+
+.form-button:hover {
+	color:white !important;
+	background-color:#90351c !important;
+}
+
+#send_data_form_response {
+	padding:30px;
+	font-size:18px;
+	color:red;
+	text-align:center;	 
+}

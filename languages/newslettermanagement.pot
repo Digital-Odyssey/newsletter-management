@@ -1,0 +1,268 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Newsletter Management\n"
+"POT-Creation-Date: 2018-02-26 14:23-0500\n"
+"PO-Revision-Date: 2018-02-26 14:22-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: newsletter-management.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: newsletter-management.php:322
+msgid "donotreply"
+msgstr ""
+
+#: newsletter-management.php:340
+msgid ""
+"THIS IS AN AUTOMATED MESSAGE. PLEASE DO NOT REPLY DIRECTLY TO THIS EMAIL"
+msgstr ""
+
+#: newsletter-management.php:344
+msgid "Company Name"
+msgstr ""
+
+#: newsletter-management.php:345 templates/template-newsletter-form.php:170
+msgid "Email Address"
+msgstr ""
+
+#: newsletter-management.php:346 templates/template-newsletter-form.php:176
+msgid "City"
+msgstr ""
+
+#: newsletter-management.php:347 templates/template-newsletter-form.php:182
+msgid "Province"
+msgstr ""
+
+#: newsletter-management.php:410
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: newsletter-management.php:411
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: newsletter-management.php:412
+msgctxt "Source Sans Pro font: on or off"
+msgid "off"
+msgstr ""
+
+#: newsletter-management.php:413
+msgctxt "Merrirweather font: on or off"
+msgid "off"
+msgstr ""
+
+#: newsletter-management.php:414
+msgctxt "Worksans font: on or off"
+msgid "off"
+msgstr ""
+
+#: newsletter-management.php:415
+msgctxt "Lato font: on or off"
+msgid "off"
+msgstr ""
+
+#: newsletter-management.php:455
+msgid "Manage Group Emails"
+msgstr ""
+
+#: newsletter-management.php:519
+msgid "Manage MP Emails"
+msgstr ""
+
+#: newsletter-management.php:641 newsletter-management.php:697
+msgid "Manage User Groups"
+msgstr ""
+
+#: newsletter-management.php:796 newsletter-management.php:839
+msgid "Collected Data"
+msgstr ""
+
+#: newsletter-management.php:1038
+msgid "Please provide your company name."
+msgstr ""
+
+#: newsletter-management.php:1039
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: newsletter-management.php:1040
+msgid "Please provide your city."
+msgstr ""
+
+#: newsletter-management.php:1041
+msgid "Please provide your province."
+msgstr ""
+
+#: newsletter-management.php:1042
+msgid "Thank you for your submission."
+msgstr ""
+
+#: newsletter-management.php:1043
+msgid "A system error occurred. Please try again later."
+msgstr ""
+
+#: newsletter-management.php:1044
+msgid "Validating fields..."
+msgstr ""
+
+#: newsletter-management.php:1086 newsletter-management.php:1089
+msgid "Create Newsletter"
+msgstr ""
+
+#: newsletter-management.php:1087
+msgid "Add Newsletter"
+msgstr ""
+
+#: newsletter-management.php:1088
+msgid "Edit Newsletter"
+msgstr ""
+
+#: newsletter-management.php:1090
+msgid "All Newsletters"
+msgstr ""
+
+#: newsletter-management.php:1091
+msgid "View Newsletter"
+msgstr ""
+
+#: newsletter-management.php:1092
+msgid "Search Newsletters"
+msgstr ""
+
+#: newsletter-management.php:1093
+msgid "No Newsletters found"
+msgstr ""
+
+#: newsletter-management.php:1094
+msgid "No Newsletter found in Trash"
+msgstr ""
+
+#: newsletter-management.php:1126
+msgctxt "taxonomy general name"
+msgid "Campaigns"
+msgstr ""
+
+#: newsletter-management.php:1127
+msgctxt "taxonomy singular name"
+msgid "Campaign"
+msgstr ""
+
+#: newsletter-management.php:1128
+msgid "Search Campaigns"
+msgstr ""
+
+#: newsletter-management.php:1129
+msgid "Popular Campaigns"
+msgstr ""
+
+#: newsletter-management.php:1130
+msgid "Parent Campaigns"
+msgstr ""
+
+#: newsletter-management.php:1131
+msgid "Parent Campaign:"
+msgstr ""
+
+#: newsletter-management.php:1132
+msgid "Edit Campaigns"
+msgstr ""
+
+#: newsletter-management.php:1133
+msgid "Update Campaigns"
+msgstr ""
+
+#: newsletter-management.php:1134
+msgid "Add New Campaign"
+msgstr ""
+
+#: newsletter-management.php:1135
+msgid "New Campaigns Name"
+msgstr ""
+
+#: newsletter-management.php:1136
+msgid "Campaign Names"
+msgstr ""
+
+#: newsletter-management.php:1215
+msgid "Recommended size: 1920x900px"
+msgstr ""
+
+#: newsletter-management.php:1217
+msgid "Media Library Image"
+msgstr ""
+
+#: newsletter-management.php:1230
+msgid "Remove Image"
+msgstr ""
+
+#: newsletter-management.php:1248 newsletter-management.php:1432
+msgid "Applies to the \"Landing Page\" template only."
+msgstr ""
+
+#: newsletter-management.php:1266 newsletter-management.php:1308
+msgid "Applies to the \"Form\" template only."
+msgstr ""
+
+#: newsletter-management.php:1331
+msgid ""
+"Select which User Group(s) the form email should be sent to. Applies to the "
+"\"Form\" template only."
+msgstr ""
+
+#: newsletter-management.php:1467
+msgid "Remove Entry"
+msgstr ""
+
+#: newsletter-management.php:1478
+msgid "No call to actions found."
+msgstr ""
+
+#: newsletter-management.php:1489
+msgid "Create New Call To Action"
+msgstr ""
+
+#: templates/template-newsletter-form.php:56
+msgid "Return to previous page"
+msgstr ""
+
+#: templates/template-newsletter-form.php:188
+msgid "Send"
+msgstr ""
+
+#: templates/template-newsletter.php:80
+msgid "Click Here"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Newsletter Management"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.ontruck.org"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Manage newsletter campaigns easily through WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pixel Bean"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.pixelbeanco.com"
+msgstr ""
